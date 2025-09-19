@@ -70,4 +70,13 @@ label {
   border-radius: 6px;
   padding: 0.5rem 0.75rem;
   height: 2.5rem;
+
+  &:focus {
+    border: 1px solid #3B5AC2;
+    box-shadow: none;
+  }
+}
+
+.custom-input-group:has(input:focus) label {
+  color: #3B5AC2;
 }
