@@ -6,11 +6,12 @@ import { ItemCertificadoComponent } from './components/item-certificado/item-cer
 import { BaseUiComponent } from "./components/base-ui/base-ui.component";
 import { CertificatesComponent } from "./pages/certificates/certificates.component";
 import { CertificateFormComponent } from "./pages/certificate-form/certificate-form.component";
+import { CertificateComponent } from "./pages/certificate/certificate.component";
 
 
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent, PrimaryButtonComponent, SecondaryButtonComponent, ItemCertificadoComponent, BaseUiComponent, CertificatesComponent, CertificateFormComponent],
+  imports: [NavbarComponent, PrimaryButtonComponent, SecondaryButtonComponent, ItemCertificadoComponent, BaseUiComponent, CertificatesComponent, CertificateFormComponent, CertificateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
