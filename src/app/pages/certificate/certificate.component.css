@@ -38,10 +38,93 @@
   height: 470px;
   background-color: #fff;
   border-radius: 8px;
+  position: relative;
+
+  p {
+    margin: 0;
+  }
 }
 
 .icone-medalha {
   position: absolute;
   top: 12px;
   left: 12px;
+  z-index: 1;
+}
+
+.info-certificado {
+  margin: 4rem 2.5rem 3rem 2.5rem;
+  gap: 20px;
+}
+
+.titulo-subtitulo-certificado {
+  h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 160%;
+    letter-spacing: 10%;
+    color: #1A2856;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 160%;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+    color: #121621;
+
+  }
+}
+
+.nome-aluno {
+  font-weight: 700;
+  font-size: 3.25rem;
+  line-height: 5rem;
+  letter-spacing: 0;
+  text-align: center;
+  color: #3B5AC2;
+}
+
+.lista-atividades-group {
+  max-width: 413.7px;
+  margin: 0 auto;
+}
+
+.lista-atividades-titulo {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #121621;
+  margin-bottom: 8px !important;
+}
+
+.lista-atividades {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #121621;
+}
+
+.data-emissao {
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+  color: #121621;
+
+}
+
+.img-assinatura {
+  position: absolute;
+  bottom: 24px;
+  right:  40px;
+  height: 64px;
 }
