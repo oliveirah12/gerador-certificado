@@ -77,6 +77,11 @@ label {
   }
 }
 
+
+.custom-input-group{
+  margin-bottom: 20px !important;
+}
+
 .custom-input-group:has(input:focus) label {
   color: #3B5AC2;
 }
